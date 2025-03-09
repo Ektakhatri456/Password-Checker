@@ -38,6 +38,9 @@ st.markdown("""
             background-color: red;
             color: white;
         }
+        .stMarkdown p {
+            text-align: center;
+        }
     </style>
 """, unsafe_allow_html=True)
 # To check the strength of the password:

@@ -14,12 +14,13 @@ st.sidebar.markdown("[🔗 LinkedIn] (https://www.linkedin.com/in/ekta-khatri-7b
 
 st.title("🔐Password Strength Checker")
 st.write(" ## This app checks the strength of your password and suggests improvements.")
-st.write("Enter your password below:")
+st.markdown('<p class="center-text">Enter your password below</p>', unsafe_allow_html=True)
 password = st.text_input("Password", type="password")
 
 st.markdown(""" 
 <style>
         .main{text-align : center;}
+        .center-text{ text-align : center;}
         .stTextInput{margin : auto; width : 60% !important;}
         .stButton button{width : 50%; background-color #4CAF50; font-size : 20px; color : black; }
         .stButton button : hover {background-color : red; color : white;}            
